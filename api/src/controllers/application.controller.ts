@@ -67,7 +67,7 @@ export class ApplicationController {
   constructor(
     private readonly applicationService: ApplicationService,
     private readonly applicationCsvExportService: ApplicationCsvExporterService,
-  ) {}
+  ) { }
 
   @Get()
   @ApiOperation({

@@ -47,7 +47,7 @@ import { ApiKeyGuard } from '../guards/api-key.guard';
 export class ApplicationFlaggedSetController {
   constructor(
     private readonly applicationFlaggedSetService: ApplicationFlaggedSetService,
-  ) {}
+  ) { }
 
   @Get()
   @ApiOperation({
